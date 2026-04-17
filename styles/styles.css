@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: "Saira", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslategrey;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 20px;
+    color: orange;
+}
+
+.footer{
+    background-color: darkslategray;
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-links{
+    list-style: none;
+}
+
+.footer-links li {
+    margin-top: 15px;
+    margin-left:0;
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    padding-top:30px;
+}

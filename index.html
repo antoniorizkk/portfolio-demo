@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Antonio Dev</title>
 </head>
 <body>
 
     <header>
-        <h1>Antonio Dev</h1>
+        <!-- <h1>Antonio Dev</h1>
         <a href="index.html">Home</a> <a href="pages/my-projects.html">My Projects</a> <a href="pages/get-in-touch.html">Get in touch</a>
-        <hr><br>
+        <hr><br> -->
+
+        <nav class="navbar">
+            <div class="logo">Antonio Dev</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/my-projects.html">Projects</a></li>
+                <li><a href="pages/get-in-touch.html">Get in Touch</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -88,15 +99,17 @@
 
     </main>
 
-    <footer>
-        <hr>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">My Projects</a></li>
-            <li><a href="#">Get in Touch</a></li>
+    <footer class="footer">
+        <div class="footer-nav-block">
+            <div class="logo" id="logo">Antonio Dev</div>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Projects</a></li>
+                <li><a href="#">Get in Touch</a></li>
+            </ul>
+        </div>
 
-            <p style="text-align: center;">Antonio Dev - &copy; copyright reserved - 2026 </p>
-        </ul>
+        <p class="copyright">Antonio Dev - &copy; copyright reserved - 2026 </p>
     </footer>
 </body>
 </html>
