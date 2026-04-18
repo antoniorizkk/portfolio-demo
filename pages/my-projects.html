@@ -3,29 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
     <title>Antonio Dev</title>
+    <script src="https://kit.fontawesome.com/a9551eb87d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
     <header>
-        <h1>Antonio Dev</h1>
-        <a href="../index.html">Home</a> <a href="my-projects.html">My Projects</a> <a href="get-in-touch.html">Get in touch</a>
-        <hr><br>
+        <!-- <h1>Antonio Dev</h1>
+        <a href="index.html">Home</a> <a href="pages/my-projects.html">My Projects</a> <a href="pages/get-in-touch.html">Get in touch</a>
+        <hr><br> -->
+
+        <nav class="navbar">
+            <div class="logo">Antonio Dev</div>
+
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="my-projects.html">Projects</a></li>
+                <li><a href="get-in-touch.html">Get in Touch</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <p>comming soon...</p>
     </main>
 
-    <footer>
-        <hr>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="my-projects.html">My Projects</a></li>
-            <li><a href="get-in-touch.html">Get in Touch</a></li>
+    <footer class="footer">
+        <div class="row">
+            <div class="column">
+                <div class="logo" id="logo">Antonio Dev</div>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="my-projects.html">My Projects</a></li>
+                    <li><a href="get-in-touch.html">Get in Touch</a></li>
+                </ul>
+            </div>
 
-            <p style="text-align: center;">Antonio Dev - &copy; copyright reserved - 2026 </p>
-        </ul>
+            <div class="column">
+                <div class="logo" id="logo">Follow Me</div>
+                <ul class="footer-links">
+                    <li><a href="https://www.linkedin.com/in/antonio-rizk-dev" target="_blank"><i></i><i class="fa-brands fa-square-linkedin fa-lg"></i>Linkedin</a></li>
+                    <li><a href="https://github.com/antoniorizkk" target="_blank"><i class="fa-brands fa-square-github fa-lg"></i>Github</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copyright">Antonio Dev - &copy; copyright reserved - 2026 </p>
     </footer>
 </body>
 </html>
